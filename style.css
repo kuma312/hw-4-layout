@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+.container {
+    background-color: rgb(245,245,220);
+    width: 100%;
+    height: 500px;
+}
+
+.box_1 {
+    width: 400px;
+    background-color: rgb(252,69,0);
+    height: 200px;
+    position: relative;
+    color: white;
+}
+
+.box_2 {
+    width: 400px;
+    background-color: rgb(154,205,50);
+    height: 200px;
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 200px;
+}
+.box_3 {
+    width: 400px;
+    background-color: rgb(70,130,181);
+    height: 200px;
+    position: relative;
+    color: white;
+    left: 320px;
+    bottom: 150px;
+}
+.text {
+    padding: 50px;
+    font-size: 30px;
+}
